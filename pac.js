@@ -10,6 +10,5 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
  
 // DEFAULT RULE: All other traffic use this proxy
-	return 'HTTPS ca.opera-proxy.net:443';
-  return 'HTTPS us.opera-proxy.net:443';
+	return 'HTTPS us.opera-proxy.net:443';
 }
